@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Pins">
+<ExpandedNodeIds>
+<v>MM1</v>
+<v>MM1\Design01\TopDesign</v>
+<v>MM1\Design01\Design01.cydwr</v>
+<v>MM1\Design01\Design01.cydwr\Pins</v>
+<v>MM1\Design01\Design01.cydwr\Analog</v>
+<v>MM1\Design01\Design01.cydwr\Clocks</v>
+<v>MM1\Design01\Design01.cydwr\Interrupts</v>
+<v>MM1\Design01\Design01.cydwr\DMA</v>
+<v>MM1\Design01\Design01.cydwr\System</v>
+<v>MM1\Design01\Design01.cydwr\Directives</v>
+<v>MM1\Design01\Design01.cydwr\Flash Security</v>
+<v>MM1\Design01\Design01.cydwr\EEPROM</v>
+<v>MM1\Design01\Header Files</v>
+<v>MM1\Design01\Header Files\cyapicallbacks.h</v>
+<v>MM1\Design01\Source Files</v>
+<v>MM1\Design01\Source Files\main.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\Knap</v>
+<v>MM1\Design01\Generated_Source\PSoC5\Knap\Knap.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\Knap\Knap.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\Knap\Knap_aliases.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\LED_ud</v>
+<v>MM1\Design01\Generated_Source\PSoC5\LED_ud\LED_ud.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\LED_ud\LED_ud.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\LED_ud\LED_ud_aliases.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydevice.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cyfitter.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>MM1\Design01\Generated_Source\PSoC5\cymetadata.c</v>
+<v>MM1\Design01\Generated_Source\PSoC5\project.h</v>
+<v>MM1\Design02\TopDesign</v>
+<v>MM1\Design02\Design02.cydwr</v>
+<v>MM1\Design02\Design02.cydwr\Pins</v>
+<v>MM1\Design02\Design02.cydwr\Analog</v>
+<v>MM1\Design02\Design02.cydwr\Clocks</v>
+<v>MM1\Design02\Design02.cydwr\Interrupts</v>
+<v>MM1\Design02\Design02.cydwr\DMA</v>
+<v>MM1\Design02\Design02.cydwr\System</v>
+<v>MM1\Design02\Design02.cydwr\Directives</v>
+<v>MM1\Design02\Design02.cydwr\Flash Security</v>
+<v>MM1\Design02\Design02.cydwr\EEPROM</v>
+<v>MM1\Design02\Header Files</v>
+<v>MM1\Design02\Header Files\cyapicallbacks.h</v>
+<v>MM1\Design02\Source Files</v>
+<v>MM1\Design02\Source Files\main.c</v>
+<v>MM1\Design02\Generated_Source</v>
+<v>MM1\Design02\Generated_Source\PSoC5</v>
+<v>MM1\Design02\Generated_Source\PSoC5\Clock_1</v>
+<v>MM1\Design02\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\LCD_Char</v>
+<v>MM1\Design02\Generated_Source\PSoC5\LCD_Char\LCD_Char.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\LCD_Char\LCD_Char.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\LCD_Char\LCD_Char_PM.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\LCD_Char_LCDPort</v>
+<v>MM1\Design02\Generated_Source\PSoC5\LCD_Char_LCDPort\LCD_Char_LCDPort.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\LCD_Char_LCDPort\LCD_Char_LCDPort.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\LCD_Char_LCDPort\LCD_Char_LCDPort_aliases.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\P0_0</v>
+<v>MM1\Design02\Generated_Source\PSoC5\P0_0\P0_0.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\P0_0\P0_0.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\P0_0\P0_0_aliases.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\PWM</v>
+<v>MM1\Design02\Generated_Source\PSoC5\PWM\PWM.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\PWM\PWM.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\PWM\PWM_PM.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydevice.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cyfitter.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>MM1\Design02\Generated_Source\PSoC5\cymetadata.c</v>
+<v>MM1\Design02\Generated_Source\PSoC5\project.h</v>
+<v>MM1\HelloWorld_Blinky01\TopDesign</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\Pins</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\Analog</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\Clocks</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\Interrupts</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\DMA</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\System</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\Directives</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\Flash Security</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.cydwr\EEPROM</v>
+<v>MM1\HelloWorld_Blinky01\Header Files</v>
+<v>MM1\HelloWorld_Blinky01\Header Files\cyapicallbacks.h</v>
+<v>MM1\HelloWorld_Blinky01\Source Files</v>
+<v>MM1\HelloWorld_Blinky01\Source Files\main.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\Clock_1</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\Clock_1\Clock_1.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\Clock_1\Clock_1.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CyBootAsmKeil.a51</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CyDmac.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CyDmac.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CyFlash.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CyFlash.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CyLib.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CyLib.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\cymem.a51</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\cypins.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\cyPm.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\cyPm.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CySpc.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\CySpc.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\cytypes.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\cyutils.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\KeilStart.a51</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\PSoC3_8051.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cy_boot\PSoC3_8051.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\LCD_Char</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\LCD_Char\LCD_Char.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\LCD_Char\LCD_Char.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\LCD_Char\LCD_Char_PM.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\LCD_Char_LCDPort</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\LCD_Char_LCDPort\LCD_Char_LCDPort.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\LCD_Char_LCDPort\LCD_Char_LCDPort.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\LCD_Char_LCDPort\LCD_Char_LCDPort_aliases.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\P0_0</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\P0_0\P0_0.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\P0_0\P0_0.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\P0_0\P0_0_aliases.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\PWM</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\PWM\PWM.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\PWM\PWM.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\PWM\PWM_PM.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cycodeshareexport.ld</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cycodeshareimport.ld</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cycodeshareimport.scat</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cydevice.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cydevice_trm.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cydevicekeil.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cydevicekeil_trm.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cydisabledsheets.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cyfitter.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cyfitter_cfg.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cyfitter_cfg.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\cyfitterkeil.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC3\project.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\Clock_1</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\LCD_Char</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\LCD_Char\LCD_Char.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\LCD_Char\LCD_Char.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\LCD_Char\LCD_Char_PM.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\LCD_Char_LCDPort</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\LCD_Char_LCDPort\LCD_Char_LCDPort.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\LCD_Char_LCDPort\LCD_Char_LCDPort.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\LCD_Char_LCDPort\LCD_Char_LCDPort_aliases.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\P0_0</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\P0_0\P0_0.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\P0_0\P0_0.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\P0_0\P0_0_aliases.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\PWM</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\PWM\PWM.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\PWM\PWM.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\PWM\PWM_PM.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydevice.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cyfitter.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\cymetadata.c</v>
+<v>MM1\HelloWorld_Blinky01\Generated_Source\PSoC5\project.h</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky.pdf</v>
+<v>MM1\HelloWorld_Blinky02\TopDesign</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\Pins</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\Analog</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\Clocks</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\Interrupts</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\DMA</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\System</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\Directives</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\Flash Security</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.cydwr\EEPROM</v>
+<v>MM1\HelloWorld_Blinky02\Header Files</v>
+<v>MM1\HelloWorld_Blinky02\Header Files\cyapicallbacks.h</v>
+<v>MM1\HelloWorld_Blinky02\Source Files</v>
+<v>MM1\HelloWorld_Blinky02\Source Files\main.c</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky.pdf</v>
+<v>MM1\USBFS_HID01</v>
+<v>MM1\USBFS_HID01\TopDesign</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\Pins</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\Analog</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\Clocks</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\Interrupts</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\DMA</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\System</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\Directives</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\Flash Security</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.cydwr\EEPROM</v>
+<v>MM1\USBFS_HID01\Source Files</v>
+<v>MM1\USBFS_HID01\Source Files\main.c</v>
+<v>MM1\USBFS_HID01\cyapicallbacks.h</v>
+<v>MM1\USBFS_HID01\Generated_Source</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\CyScBoostClk</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\Pin_1</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\Pin_1\Pin_1.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\Pin_1\Pin_1.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\Pin_1\Pin_1_aliases.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_audio.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_audio.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_boot.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_cdc.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_cdc.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_cdc.inf</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_cls.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_cydmac.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_descr.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_drv.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_episr.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_hid.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_hid.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_midi.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_midi.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_msc.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_msc.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_pm.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_pvt.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_std.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS\USBFS_vnd.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS_Dm</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS_Dm\USBFS_Dm.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS_Dm\USBFS_Dm.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS_Dm\USBFS_Dm_aliases.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS_Dp</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS_Dp\USBFS_Dp.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS_Dp\USBFS_Dp.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\USBFS_Dp\USBFS_Dp_aliases.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydevice.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitter.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cymetadata.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\project.h</v>
+<v>MM1\USBFS_HID01\USBFS_HID.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\TopDesign</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Pins</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Analog</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Clocks</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Interrupts</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\DMA</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\System</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Directives</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Flash Security</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\EEPROM</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cyre</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Header Files</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Header Files\cyapicallbacks.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Source Files</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Source Files\main.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Clock_1</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_InA</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_InA\LED_InA.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_InA\LED_InA.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_InA\LED_InA_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_InB</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_InB\LED_InB.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_InB\LED_InB.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_InB\LED_InB_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_OutA</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_OutA\LED_OutA.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_OutA\LED_OutA.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_OutA\LED_OutA_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_OutB</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_OutB\LED_OutB.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_OutB\LED_OutB.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\LED_OutB\LED_OutB_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI_PWR</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI_PWR\MIDI_PWR.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI_PWR\MIDI_PWR.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI_PWR\MIDI_PWR_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI1_UART</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI1_UART\MIDI1_UART.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI1_UART\MIDI1_UART.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI1_UART\MIDI1_UART_BOOT.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI1_UART\MIDI1_UART_INT.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI1_UART\MIDI1_UART_PM.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI2_UART</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI2_UART\MIDI2_UART.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI2_UART\MIDI2_UART.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI2_UART\MIDI2_UART_BOOT.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI2_UART\MIDI2_UART_INT.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\MIDI2_UART\MIDI2_UART_PM.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Sleep_isr</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Sleep_isr\Sleep_isr.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Sleep_isr\Sleep_isr.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SleepTimer</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SleepTimer\SleepTimer.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SleepTimer\SleepTimer.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SW1</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SW1\SW1.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SW1\SW1.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SW1\SW1_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SW2</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SW2\SW2.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SW2\SW2.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\SW2\SW2_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_audio.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_audio.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_boot.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_cdc.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_cdc.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_cdc.inf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_cls.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_cydmac.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_descr.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_drv.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_episr.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_hid.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_hid.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_midi.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_midi.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_msc.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_msc.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_pm.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_pvt.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_std.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB\USB_vnd.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB_Dm</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB_Dm\USB_Dm.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB_Dm\USB_Dm.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB_Dm\USB_Dm_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB_Dp</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB_Dp\USB_Dp.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB_Dp\USB_Dp.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\USB_Dp\USB_Dp_aliases.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydevice.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cyfitter.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cymetadata.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\project.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitter.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\cymetadata.c</v>
+<v>MM1\USBFS_HID01\Generated_Source\PSoC5\project.h</v>
+<v>MM1\USBFS_HID01\USBFS_HID.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\TopDesign</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Pins</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Analog</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Clocks</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Interrupts</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\DMA</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\System</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Directives</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\Flash Security</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cydwr\EEPROM</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.cyre</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Header Files</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Header Files\cyapicallbacks.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Source Files</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Source Files\main.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Clock_1</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="MM1\HelloWorld_Blinky01">
+<ExpandedNodeIds>
+<v>MM1</v>
+<v>MM1\Design01</v>
+<v>MM1\Design01\TopDesign</v>
+<v>MM1\Design01\TopDesign\TopDesign.cysch</v>
+<v>MM1\Design02\TopDesign</v>
+<v>MM1\Design02\TopDesign\TopDesign.cysch</v>
+<v>MM1\HelloWorld_Blinky01\TopDesign</v>
+<v>MM1\HelloWorld_Blinky01\TopDesign\TopDesign.cysch</v>
+<v>MM1\HelloWorld_Blinky02</v>
+<v>MM1\HelloWorld_Blinky02\TopDesign</v>
+<v>MM1\HelloWorld_Blinky02\TopDesign\TopDesign.cysch</v>
+<v>MM1\USBFS_HID01</v>
+<v>MM1\USBFS_HID01\TopDesign</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC3</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC3\TopDesign.ctl</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC4</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC4\PSoC 4200L</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC4\PSoC 4200L\TopDesign.ctl</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC5</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC5\TopDesign.ctl</v>
+<v>MM1\USBFS_HID01\TopDesign\TopDesign.cysch</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\TopDesign</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>MM1</v>
+<v>MM1\Design01</v>
+<v>MM1\Design01\TopDesign</v>
+<v>MM1\Design01\TopDesign\TopDesign.cysch</v>
+<v>MM1\Design02</v>
+<v>MM1\HelloWorld_Blinky01</v>
+<v>MM1\HelloWorld_Blinky02</v>
+<v>MM1\HelloWorld_Blinky02\TopDesign</v>
+<v>MM1\HelloWorld_Blinky02\TopDesign\TopDesign.cysch</v>
+<v>MM1\USBFS_HID01</v>
+<v>MM1\USBFS_HID01\TopDesign</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC3</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC3\TopDesign.ctl</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC4</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC4\PSoC 4200L</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC4\PSoC 4200L\TopDesign.ctl</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC5</v>
+<v>MM1\USBFS_HID01\TopDesign\PSoC5\TopDesign.ctl</v>
+<v>MM1\USBFS_HID01\TopDesign\TopDesign.cysch</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\TopDesign</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>MM1</v>
+<v>MM1\Design01</v>
+<v>MM1\Design01\CortexM3</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\Knap.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_ud.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Design01.elf</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Design01.hex</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Design01.map</v>
+<v>MM1\Design01\Design01.gpdsc</v>
+<v>MM1\Design01\Design01.rpt</v>
+<v>MM1\Design01\Design01_timing.html</v>
+<v>MM1\Design02</v>
+<v>MM1\Design02\CortexM3</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\LCD_Char.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\LCD_Char_PM.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\P0_0.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM_PM.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Design02.elf</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Design02.hex</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Design02.map</v>
+<v>MM1\Design02\Design02.gpdsc</v>
+<v>MM1\Design02\Design02.rpt</v>
+<v>MM1\Design02\Design02_timing.html</v>
+<v>MM1\HelloWorld_Blinky01</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\LCD_Char.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\LCD_Char_PM.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\P0_0.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM_PM.lst</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\HelloWorld_Blinky01.elf</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\HelloWorld_Blinky01.hex</v>
+<v>MM1\HelloWorld_Blinky01\CortexM3\ARM_GCC_493\Debug\HelloWorld_Blinky01.map</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.gpdsc</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01.rpt</v>
+<v>MM1\HelloWorld_Blinky01\HelloWorld_Blinky01_timing.html</v>
+<v>MM1\HelloWorld_Blinky02</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.gpdsc</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02.rpt</v>
+<v>MM1\HelloWorld_Blinky02\HelloWorld_Blinky02_timing.html</v>
+<v>MM1\USBFS_HID01</v>
+<v>MM1\USBFS_HID01\CortexM3</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\Pin_1.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_audio.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_boot.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_cdc.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_cls.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_descr.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_Dm.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_Dp.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_drv.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_episr.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_hid.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_midi.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_msc.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_pm.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_std.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_vnd.lst</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\USBFS_HID01.elf</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\USBFS_HID01.hex</v>
+<v>MM1\USBFS_HID01\CortexM3\ARM_GCC_493\Debug\USBFS_HID01.map</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.gpdsc</v>
+<v>MM1\USBFS_HID01\USBFS_HID01.rpt</v>
+<v>MM1\USBFS_HID01\USBFS_HID01_timing.html</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_InA.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_InB.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_OutA.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_OutB.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI_PWR.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI1_UART.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI1_UART_BOOT.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI1_UART_INT.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI1_UART_PM.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI2_UART.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI2_UART_BOOT.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI2_UART_INT.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\MIDI2_UART_PM.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\Sleep_isr.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\SleepTimer.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\SW1.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\SW2.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_audio.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_boot.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_cdc.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_cls.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_descr.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_Dm.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_Dp.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_drv.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_episr.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_hid.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_midi.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_msc.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_pm.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_std.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\Listing Files\USB_vnd.lst</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\USBFS_MIDI_PSoC3_5LP01.elf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\USBFS_MIDI_PSoC3_5LP01.hex</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CortexM3\ARM_GCC_493\Debug\USBFS_MIDI_PSoC3_5LP01.map</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.gpdsc</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01.rpt</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_MIDI_PSoC3_5LP01_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>MM1</v>
+<v>MM1\Design01</v>
+<v>MM1\Design01\CortexM3</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\Knap.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_ud.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Design01.elf</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Design01.hex</v>
+<v>MM1\Design01\CortexM3\ARM_GCC_493\Debug\Design01.map</v>
+<v>MM1\Design01\Design01.gpdsc</v>
+<v>MM1\Design01\Design01.rpt</v>
+<v>MM1\Design01\Design01_timing.html</v>
+<v>MM1\Design02</v>
+<v>MM1\Design02\CortexM3</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>MM1\Design02\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="MM1\HelloWorld_Blinky01">
+<ExpandedNodeIds>
+<v>MM1</v>
+<v>MM1\Design01</v>
+<v>MM1\Design01\PSoC 5LP Architecture TRM</v>
+<v>MM1\Design01\CY8C58LP Family Datasheet</v>
+<v>MM1\Design01\System Reference Guides</v>
+<v>MM1\Design01\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\Design01\Counter_v3_0.pdf</v>
+<v>MM1\Design01\cy_clock_v2_20.pdf</v>
+<v>MM1\Design01\cy_pins_v2_20</v>
+<v>MM1\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>MM1\Design01\not_v1_0.pdf</v>
+<v>MM1\Design01\USBFS_v3_10.pdf</v>
+<v>MM1\Design02</v>
+<v>MM1\Design02\PSoC 5LP Architecture TRM</v>
+<v>MM1\Design02\CY8C58LP Family Datasheet</v>
+<v>MM1\Design02\System Reference Guides</v>
+<v>MM1\Design02\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\Design02\CharLCD_v2_20.pdf</v>
+<v>MM1\Design02\cy_clock_v2_20.pdf</v>
+<v>MM1\Design02\cy_pins_v2_20.pdf</v>
+<v>MM1\Design02\PWM_v3_30.pdf</v>
+<v>MM1\Design02\ZeroTerminal</v>
+<v>MM1\Design02\ZeroTerminal\ZeroTerminal.pdf</v>
+<v>MM1\HelloWorld_Blinky01\PSoC 5LP Architecture TRM</v>
+<v>MM1\HelloWorld_Blinky01\CY8C58LP Family Datasheet</v>
+<v>MM1\HelloWorld_Blinky01\System Reference Guides</v>
+<v>MM1\HelloWorld_Blinky01\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\HelloWorld_Blinky01\Project Datasheet</v>
+<v>MM1\HelloWorld_Blinky01\CharLCD_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky01\cy_clock_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky01\cy_pins_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky01\PWM_v3_30.pdf</v>
+<v>MM1\HelloWorld_Blinky01\ZeroTerminal</v>
+<v>MM1\HelloWorld_Blinky01\ZeroTerminal\ZeroTerminal.pdf</v>
+<v>MM1\HelloWorld_Blinky02</v>
+<v>MM1\HelloWorld_Blinky02\PSoC 5LP Architecture TRM</v>
+<v>MM1\HelloWorld_Blinky02\CY8C58LP Family Datasheet</v>
+<v>MM1\HelloWorld_Blinky02\System Reference Guides</v>
+<v>MM1\HelloWorld_Blinky02\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\HelloWorld_Blinky02\CharLCD_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky02\cy_clock_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky02\cy_pins_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky02\PWM_v3_30.pdf</v>
+<v>MM1\HelloWorld_Blinky02\ZeroTerminal</v>
+<v>MM1\HelloWorld_Blinky02\ZeroTerminal\ZeroTerminal.pdf</v>
+<v>MM1\USBFS_HID01</v>
+<v>MM1\USBFS_HID01\PSoC 5LP Architecture TRM</v>
+<v>MM1\USBFS_HID01\CY8C58LP Family Datasheet</v>
+<v>MM1\USBFS_HID01\System Reference Guides</v>
+<v>MM1\USBFS_HID01\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\USBFS_HID01\cy_constant_v1_0.pdf</v>
+<v>MM1\USBFS_HID01\cy_pins_v2_20.pdf</v>
+<v>MM1\USBFS_HID01\USBFS_v3_10.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\PSoC 5LP Architecture TRM</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\CY8C58LP Family Datasheet</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\System Reference Guides</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\cy_clock_v2_20.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\cy_isr_v1_70.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\cy_pins_v2_20</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Diode_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Diode_v1_0\Diode_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Gnd_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\LED_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\LED_v1_0\LED_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\not_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\not_v1_0\not_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\NPN_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\NPN_v1_0\NPN_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\PFET_En_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\PhotoTrans_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\PhotoTrans_v1_0\PhotoTrans_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Power_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Power_v1_0\Power_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Resistor_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\SleepTimer_v3_20.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\SwitchSPST_v1_0</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\UART_v2_50</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\UART_v2_50\UART_v2_50.pdf</v>
+<v>MM1\USBFS_MIDI_PSoC3_5LP01\USBFS_v3_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>MM1</v>
+<v>MM1\Design01</v>
+<v>MM1\Design01\PSoC 5LP Architecture TRM</v>
+<v>MM1\Design01\CY8C58LP Family Datasheet</v>
+<v>MM1\Design01\System Reference Guides</v>
+<v>MM1\Design01\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\Design01\Counter_v3_0.pdf</v>
+<v>MM1\Design01\cy_clock_v2_20.pdf</v>
+<v>MM1\Design01\cy_pins_v2_20</v>
+<v>MM1\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>MM1\Design01\not_v1_0.pdf</v>
+<v>MM1\Design01\USBFS_v3_10.pdf</v>
+<v>MM1\Design02</v>
+<v>MM1\Design02\PSoC 5LP Architecture TRM</v>
+<v>MM1\Design02\CY8C58LP Family Datasheet</v>
+<v>MM1\Design02\System Reference Guides</v>
+<v>MM1\Design02\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\Design02\CharLCD_v2_20.pdf</v>
+<v>MM1\Design02\cy_clock_v2_20.pdf</v>
+<v>MM1\Design02\cy_pins_v2_20.pdf</v>
+<v>MM1\Design02\PWM_v3_30.pdf</v>
+<v>MM1\Design02\ZeroTerminal</v>
+<v>MM1\Design02\ZeroTerminal\ZeroTerminal.pdf</v>
+<v>MM1\HelloWorld_Blinky01</v>
+<v>MM1\HelloWorld_Blinky02</v>
+<v>MM1\HelloWorld_Blinky02\PSoC 5LP Architecture TRM</v>
+<v>MM1\HelloWorld_Blinky02\CY8C58LP Family Datasheet</v>
+<v>MM1\HelloWorld_Blinky02\System Reference Guides</v>
+<v>MM1\HelloWorld_Blinky02\System Reference Guides\cy_boot_v5_50</v>
+<v>MM1\HelloWorld_Blinky02\CharLCD_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky02\cy_clock_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky02\cy_pins_v2_20.pdf</v>
+<v>MM1\HelloWorld_Blinky02\PWM_v3_30.pdf</v>
+<v>MM1\HelloWorld_Blinky02\ZeroTerminal</v>
+<v>MM1\HelloWorld_Blinky02\ZeroTerminal\ZeroTerminal.pdf</v>
+<v>MM1\USBFS_HID01</v>
+<v>MM1\USBFS_HID01\PSoC 5LP Architecture TRM</v>
+<v>MM1\USBFS_HID01\CY8C58LP Family Datasheet</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Design01.cydsn\Design01.cydwr" />
+<name v=".\Design01.cydsn\main.c" />
+<name v=".\HelloWorld_Blinky02.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\HelloWorld_Blinky02.cydsn\main.c" />
+<name v=".\USBFS_HID01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\USBFS_HID01.cydsn\main.c" />
+<name v=".\USBFS_HID01.cydsn\USBFS_HID01.cydwr" />
+<name v=".\USBFS_HID01.cydsn\Generated_Source\PSoC5\USBFS_std.c" />
+<name v=".\USBFS_HID01.cydsn\Generated_Source\PSoC5\USBFS.c" />
+<name v=".\USBFS_HID01.cydsn\Generated_Source\PSoC5\CyBootAsmGnu.s" />
+<name v=".\USBFS_HID01.cydsn\Generated_Source\PSoC5\CyLib.c" />
+<name v=".\USBFS_MIDI_PSoC3_5LP01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\USBFS_MIDI_PSoC3_5LP01.cydsn\USBFS_MIDI_PSoC3_5LP01.cydwr" />
+<name v=".\USBFS_MIDI_PSoC3_5LP01.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="826, 405" SelectedTabbedMdiWindow="f56a12d8-779b-4ca7-8970-36117fb130e5"><DocumentWindow Key="8482042a-906d-4d22-b126-f9567b05102a" Guid="aced6838-ae8e-4a0b-9d39-80c4b7484fb8" /><DocumentWindow Key="bdbf6a8d-77dd-42c7-9f27-e5703562c0a7" Guid="60ad96dd-a876-4731-a560-463e005ea655" /><DocumentWindow Key="8c8d66af-6029-4557-abc5-f034dc38f6ca" Guid="3c69de2c-7558-450c-ba44-78bc57427801" /><DocumentWindow Key="a7cee742-06b1-409f-9637-c5115fdc0482" Guid="4cee040f-a28f-43b8-827c-03088d024341" /><DocumentWindow Key="dab761c9-c2ea-4192-b536-fe11fed5be1a" Guid="6fa3209c-984d-489a-8732-0331abce46e0" /><DocumentWindow Key="206f5054-eb3b-4878-a4be-f4c6fd67d8a1" Guid="94325a3e-ce53-49ec-ba23-9c7e8b42ca02" /><DocumentWindow Key="1f0e07b5-8658-4e28-a886-d69bf66d4dae" Guid="f56a12d8-779b-4ca7-8970-36117fb130e5" /><DocumentWindow Key="21a53c0f-fd76-41a7-9a19-172967bb6d28" Guid="175f35e6-4483-4add-8088-c4bed0eceb95" /><DocumentWindow Key="a2a90d97-c62d-4b59-87f0-4c4b6cc6f317" Guid="d9e25845-9339-4a15-999a-6a5cb2ef351f" /><DocumentWindow Key="49d6d5ac-384d-426b-919b-120ea3b2b536" Guid="c4878ebc-30e5-48ef-99ce-c6614e83b8eb" /><DocumentWindow Key="38e16698-2a80-4669-a659-905682350507" Guid="5aa42a93-fb54-4f3c-9c82-54723caad9a3" /><DocumentWindow Key="bcf71edb-909d-47ab-ad64-47b4acbc08cb" Guid="51ebd28a-5c7c-443f-81e8-a8f86bb0fd5f" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="b43672dd-40e4-46af-ae96-87fe1cb2f899" /><DocumentWindow Key="ab8f82d2-808b-4dc3-9f01-f661122a3cda" Guid="ec7d6303-0cca-4e28-9b9a-492dbd1dd832" /><DocumentWindow Key="a3a6d802-1bd3-4c16-a05c-5e33e7341c82" Guid="7b1efec3-23bb-482f-8c31-f000cc388bd7" /><DocumentWindow Key="1ba69736-17f3-4197-a5e9-2d713b2dbd00" Guid="3b082476-d883-4082-bfa1-73523cbafa3b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

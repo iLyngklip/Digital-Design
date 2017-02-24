@@ -1,0 +1,14 @@
+Loading plugins phase: Elapsed time ==> 0s.343ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p Z:\Users\iLyngklip\Dropbox\AAU\4. Semester\Digital-Design\MM1\Design01.cydsn\Design01.cyprj -d CY8C5888LTI-LP097 -s Z:\Users\iLyngklip\Dropbox\AAU\4. Semester\Digital-Design\MM1\Design01.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+ADD: sdb.M0025: error: No input on Instance "not_1", terminal "inTerminal".
+ * Z:\Users\iLyngklip\Dropbox\AAU\4. Semester\Digital-Design\MM1\Design01.cydsn\TopDesign\TopDesign.cysch (Signal: Net_1)
+ * Z:\Users\iLyngklip\Dropbox\AAU\4. Semester\Digital-Design\MM1\Design01.cydsn\TopDesign\TopDesign.cysch (Shape_1.3)
+
+ADD: sdb.M0050: error: Terminal "inTerminal" requires connection when it is visible.
+ * Z:\Users\iLyngklip\Dropbox\AAU\4. Semester\Digital-Design\MM1\Design01.cydsn\TopDesign\TopDesign.cysch (Signal: Net_1)
+ * Z:\Users\iLyngklip\Dropbox\AAU\4. Semester\Digital-Design\MM1\Design01.cydsn\TopDesign\TopDesign.cysch (Shape_1.3)
+
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 0s.781ms

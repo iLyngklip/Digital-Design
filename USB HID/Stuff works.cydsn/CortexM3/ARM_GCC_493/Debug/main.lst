@@ -1,0 +1,784 @@
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"main.c"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              		.global	mouseData
+  19              		.bss
+  20              		.align	2
+  21              		.type	mouseData, %object
+  22              		.size	mouseData, 3
+  23              	mouseData:
+  24 0000 000000   		.space	3
+  25              		.global	bSNstring
+  26 0003 00       		.data
+  27              		.align	2
+  28              		.type	bSNstring, %object
+  29              		.size	bSNstring, 16
+  30              	bSNstring:
+  31 0000 0E       		.byte	14
+  32 0001 03       		.byte	3
+  33 0002 46       		.byte	70
+  34 0003 00       		.byte	0
+  35 0004 57       		.byte	87
+  36 0005 00       		.byte	0
+  37 0006 53       		.byte	83
+  38 0007 00       		.byte	0
+  39 0008 4E       		.byte	78
+  40 0009 00       		.byte	0
+  41 000a 30       		.byte	48
+  42 000b 00       		.byte	0
+  43 000c 31       		.byte	49
+  44 000d 00       		.byte	0
+  45 000e 0000     		.space	2
+  46              		.section	.text.main,"ax",%progbits
+  47              		.align	2
+  48              		.global	main
+  49              		.thumb
+  50              		.thumb_func
+  51              		.type	main, %function
+  52              	main:
+  53              	.LFB63:
+  54              		.file 1 "main.c"
+   1:main.c        **** /*******************************************************************************
+   2:main.c        **** * File Name: main.c
+   3:main.c        **** *
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 2
+
+
+   4:main.c        **** * Version: 3.0
+   5:main.c        **** *
+   6:main.c        **** * Description:
+   7:main.c        **** *  This code example demonstrates USB HID interface class operation by 
+   8:main.c        **** *  implementing a 3-button mouse. When the code is run, the mouse cursor moves 
+   9:main.c        **** *  from the right to the left, and vice-versa.
+  10:main.c        **** *
+  11:main.c        **** *
+  12:main.c        **** * Related Document:
+  13:main.c        **** *  Device Class Definition for Human Interface Devices (HID)
+  14:main.c        **** *  Firmware Specification- Version 1.11
+  15:main.c        **** *
+  16:main.c        **** ********************************************************************************
+  17:main.c        **** * Copyright 2015, Cypress Semiconductor Corporation. All rights reserved.
+  18:main.c        **** * This software is owned by Cypress Semiconductor Corporation and is protected
+  19:main.c        **** * by and subject to worldwide patent and copyright laws and treaties.
+  20:main.c        **** * Therefore, you may use this software only as provided in the license agreement
+  21:main.c        **** * accompanying the software package from which you obtained this software.
+  22:main.c        **** * CYPRESS AND ITS SUPPLIERS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+  23:main.c        **** * WITH REGARD TO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT,
+  24:main.c        **** * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  25:main.c        **** *******************************************************************************/
+  26:main.c        **** 
+  27:main.c        **** #include <project.h>
+  28:main.c        **** 
+  29:main.c        **** #define USBFS_DEVICE        (0u)
+  30:main.c        **** 
+  31:main.c        **** #define MOUSE_ENDPOINT      (1u)
+  32:main.c        **** #define MOUSE_DATA_LEN      (3u)
+  33:main.c        **** #define CURSOR_STEP         (5u)
+  34:main.c        **** #define CURSOR_STEP_POS     (1u)
+  35:main.c        **** 
+  36:main.c        **** /* Mouse packet array: button, X, Y */
+  37:main.c        **** uint8 mouseData[MOUSE_DATA_LEN] = {0u, 0u, 0u};
+  38:main.c        **** uint8 bSNstring[16u] = {0x0Eu, 0x03u, 'F', 0u, 'W', 0u, 'S', 0u, 'N', 0u, '0', 0u, '1', 0u};
+  39:main.c        **** 
+  40:main.c        **** 
+  41:main.c        **** /*******************************************************************************
+  42:main.c        **** * Function Name: main
+  43:main.c        **** ********************************************************************************
+  44:main.c        **** *
+  45:main.c        **** * Summary:
+  46:main.c        **** *  Wraps the OUT data coming from the host back to the host on a subsequent IN.
+  47:main.c        **** *
+  48:main.c        **** * Parameters:
+  49:main.c        **** *  None.
+  50:main.c        **** *
+  51:main.c        **** * Return:
+  52:main.c        **** *  None.
+  53:main.c        **** *
+  54:main.c        **** *******************************************************************************/
+  55:main.c        **** int main()
+  56:main.c        **** {
+  55              		.loc 1 56 0
+  56              		.cfi_startproc
+  57              		@ args = 0, pretend = 0, frame = 8
+  58              		@ frame_needed = 1, uses_anonymous_args = 0
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 3
+
+
+  59 0000 80B5     		push	{r7, lr}
+  60              		.cfi_def_cfa_offset 8
+  61              		.cfi_offset 7, -8
+  62              		.cfi_offset 14, -4
+  63 0002 82B0     		sub	sp, sp, #8
+  64              		.cfi_def_cfa_offset 16
+  65 0004 00AF     		add	r7, sp, #0
+  66              		.cfi_def_cfa_register 7
+  57:main.c        ****     uint8 counter = 0u;
+  67              		.loc 1 57 0
+  68 0006 0023     		movs	r3, #0
+  69 0008 FB71     		strb	r3, [r7, #7]
+  58:main.c        **** 
+  59:main.c        ****     CyGlobalIntEnable;
+  70              		.loc 1 59 0
+  71              	@ 59 "main.c" 1
+  72 000a 62B6     		CPSIE   i
+  73              	@ 0 "" 2
+  60:main.c        **** 
+  61:main.c        ****     /* Set user-defined Serial Number string descriptor. */
+  62:main.c        ****     USBFS_SerialNumString(bSNstring);
+  74              		.loc 1 62 0
+  75              		.thumb
+  76 000c 2048     		ldr	r0, .L9
+  77 000e FFF7FEFF 		bl	USBFS_SerialNumString
+  63:main.c        **** 
+  64:main.c        ****     /* Start USBFS operation with 5-V operation. */
+  65:main.c        ****     USBFS_Start(USBFS_DEVICE, USBFS_5V_OPERATION);
+  78              		.loc 1 65 0
+  79 0012 0020     		movs	r0, #0
+  80 0014 0121     		movs	r1, #1
+  81 0016 FFF7FEFF 		bl	USBFS_Start
+  66:main.c        **** 
+  67:main.c        ****     /* Wait for device to enumerate */
+  68:main.c        ****     while (0u == USBFS_GetConfiguration())
+  82              		.loc 1 68 0
+  83 001a 00BF     		nop
+  84              	.L2:
+  85              		.loc 1 68 0 is_stmt 0 discriminator 1
+  86 001c FFF7FEFF 		bl	USBFS_GetConfiguration
+  87 0020 0346     		mov	r3, r0
+  88 0022 002B     		cmp	r3, #0
+  89 0024 FAD0     		beq	.L2
+  69:main.c        ****     {
+  70:main.c        ****     }
+  71:main.c        **** 
+  72:main.c        ****     /* Enumeration is done, load mouse endpoint. */
+  73:main.c        ****     USBFS_LoadInEP(MOUSE_ENDPOINT, mouseData, MOUSE_DATA_LEN);
+  90              		.loc 1 73 0 is_stmt 1
+  91 0026 0120     		movs	r0, #1
+  92 0028 1A49     		ldr	r1, .L9+4
+  93 002a 0322     		movs	r2, #3
+  94 002c FFF7FEFF 		bl	USBFS_LoadInEP
+  95              	.L8:
+  74:main.c        **** 
+  75:main.c        ****     for(;;)
+  76:main.c        ****     {
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 4
+
+
+  77:main.c        ****         /* Wait for ACK before loading data. */
+  78:main.c        ****         while (0u == USBFS_GetEPAckState(MOUSE_ENDPOINT))
+  96              		.loc 1 78 0 discriminator 1
+  97 0030 00BF     		nop
+  98              	.L3:
+  99 0032 0120     		movs	r0, #1
+ 100 0034 FFF7FEFF 		bl	USBFS_GetEPAckState
+ 101 0038 0346     		mov	r3, r0
+ 102 003a 002B     		cmp	r3, #0
+ 103 003c F9D0     		beq	.L3
+  79:main.c        ****         {
+  80:main.c        ****         }
+  81:main.c        **** 
+  82:main.c        ****         /* Load endpoint with data after ACK has been received. */
+  83:main.c        ****         USBFS_LoadInEP(MOUSE_ENDPOINT, mouseData, MOUSE_DATA_LEN);
+ 104              		.loc 1 83 0
+ 105 003e 0120     		movs	r0, #1
+ 106 0040 1449     		ldr	r1, .L9+4
+ 107 0042 0322     		movs	r2, #3
+ 108 0044 FFF7FEFF 		bl	USBFS_LoadInEP
+  84:main.c        **** 
+  85:main.c        ****         counter++;
+ 109              		.loc 1 85 0
+ 110 0048 FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 111 004a 0133     		adds	r3, r3, #1
+ 112 004c FB71     		strb	r3, [r7, #7]
+  86:main.c        ****         if (counter == 128u)
+ 113              		.loc 1 86 0
+ 114 004e FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 115 0050 802B     		cmp	r3, #128
+ 116 0052 03D1     		bne	.L4
+  87:main.c        ****         {
+  88:main.c        ****             /* Start moving mouse to the right. */
+  89:main.c        ****             mouseData[CURSOR_STEP_POS] = CURSOR_STEP;
+ 117              		.loc 1 89 0
+ 118 0054 0F4B     		ldr	r3, .L9+4
+ 119 0056 0522     		movs	r2, #5
+ 120 0058 5A70     		strb	r2, [r3, #1]
+ 121 005a 18E0     		b	.L5
+ 122              	.L4:
+  90:main.c        ****         }
+  91:main.c        ****         /* When our counter hits 255. */					
+  92:main.c        ****         else if (counter == 255u)
+ 123              		.loc 1 92 0
+ 124 005c FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 125 005e FF2B     		cmp	r3, #255
+ 126 0060 03D1     		bne	.L6
+  93:main.c        ****         {
+  94:main.c        ****             /* Start moving mouse to left. */
+  95:main.c        ****             mouseData[CURSOR_STEP_POS] = (uint8) -(int8) CURSOR_STEP;
+ 127              		.loc 1 95 0
+ 128 0062 0C4B     		ldr	r3, .L9+4
+ 129 0064 FB22     		movs	r2, #251
+ 130 0066 5A70     		strb	r2, [r3, #1]
+ 131 0068 11E0     		b	.L5
+ 132              	.L6:
+  96:main.c        ****         }
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 5
+
+
+  97:main.c        ****         else
+  98:main.c        ****         {
+  99:main.c        ****             if(KNAP_Read() == 0u)
+ 133              		.loc 1 99 0
+ 134 006a FFF7FEFF 		bl	KNAP_Read
+ 135 006e 0346     		mov	r3, r0
+ 136 0070 002B     		cmp	r3, #0
+ 137 0072 06D1     		bne	.L7
+ 100:main.c        ****             {
+ 101:main.c        ****                 PORE_Write(1u);
+ 138              		.loc 1 101 0
+ 139 0074 0120     		movs	r0, #1
+ 140 0076 FFF7FEFF 		bl	PORE_Write
+ 102:main.c        ****                 mouseData[0] = 0x01;
+ 141              		.loc 1 102 0
+ 142 007a 064B     		ldr	r3, .L9+4
+ 143 007c 0122     		movs	r2, #1
+ 144 007e 1A70     		strb	r2, [r3]
+ 145 0080 05E0     		b	.L5
+ 146              	.L7:
+ 103:main.c        ****             } else
+ 104:main.c        ****             {
+ 105:main.c        ****                 PORE_Write(0u);
+ 147              		.loc 1 105 0
+ 148 0082 0020     		movs	r0, #0
+ 149 0084 FFF7FEFF 		bl	PORE_Write
+ 106:main.c        ****                 mouseData[0] = 0x00;
+ 150              		.loc 1 106 0
+ 151 0088 024B     		ldr	r3, .L9+4
+ 152 008a 0022     		movs	r2, #0
+ 153 008c 1A70     		strb	r2, [r3]
+ 154              	.L5:
+ 107:main.c        ****             }
+ 108:main.c        ****             /* Do nothing. */					
+ 109:main.c        ****         }
+ 110:main.c        ****     }
+ 155              		.loc 1 110 0
+ 156 008e CFE7     		b	.L8
+ 157              	.L10:
+ 158              		.align	2
+ 159              	.L9:
+ 160 0090 00000000 		.word	bSNstring
+ 161 0094 00000000 		.word	mouseData
+ 162              		.cfi_endproc
+ 163              	.LFE63:
+ 164              		.size	main, .-main
+ 165              		.text
+ 166              	.Letext0:
+ 167              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.0\\psoc creator\\import\\gnu\\arm\\4.9.
+ 168              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.0\\psoc creator\\import\\gnu\\arm\\4.9.
+ 169              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
+ 170              		.file 5 "Generated_Source\\PSoC5/core_cm3.h"
+ 171              		.section	.debug_info,"",%progbits
+ 172              	.Ldebug_info0:
+ 173 0000 2D010000 		.4byte	0x12d
+ 174 0004 0400     		.2byte	0x4
+ 175 0006 00000000 		.4byte	.Ldebug_abbrev0
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 6
+
+
+ 176 000a 04       		.byte	0x4
+ 177 000b 01       		.uleb128 0x1
+ 178 000c 9E000000 		.4byte	.LASF20
+ 179 0010 01       		.byte	0x1
+ 180 0011 38000000 		.4byte	.LASF21
+ 181 0015 6E010000 		.4byte	.LASF22
+ 182 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 183 001d 00000000 		.4byte	0
+ 184 0021 00000000 		.4byte	.Ldebug_line0
+ 185 0025 02       		.uleb128 0x2
+ 186 0026 01       		.byte	0x1
+ 187 0027 06       		.byte	0x6
+ 188 0028 52010000 		.4byte	.LASF0
+ 189 002c 02       		.uleb128 0x2
+ 190 002d 01       		.byte	0x1
+ 191 002e 08       		.byte	0x8
+ 192 002f 82000000 		.4byte	.LASF1
+ 193 0033 02       		.uleb128 0x2
+ 194 0034 02       		.byte	0x2
+ 195 0035 05       		.byte	0x5
+ 196 0036 2C010000 		.4byte	.LASF2
+ 197 003a 02       		.uleb128 0x2
+ 198 003b 02       		.byte	0x2
+ 199 003c 07       		.byte	0x7
+ 200 003d 0E000000 		.4byte	.LASF3
+ 201 0041 03       		.uleb128 0x3
+ 202 0042 5E010000 		.4byte	.LASF9
+ 203 0046 02       		.byte	0x2
+ 204 0047 3F       		.byte	0x3f
+ 205 0048 4C000000 		.4byte	0x4c
+ 206 004c 02       		.uleb128 0x2
+ 207 004d 04       		.byte	0x4
+ 208 004e 05       		.byte	0x5
+ 209 004f 95000000 		.4byte	.LASF4
+ 210 0053 02       		.uleb128 0x2
+ 211 0054 04       		.byte	0x4
+ 212 0055 07       		.byte	0x7
+ 213 0056 4F000000 		.4byte	.LASF5
+ 214 005a 02       		.uleb128 0x2
+ 215 005b 08       		.byte	0x8
+ 216 005c 05       		.byte	0x5
+ 217 005d 00000000 		.4byte	.LASF6
+ 218 0061 02       		.uleb128 0x2
+ 219 0062 08       		.byte	0x8
+ 220 0063 07       		.byte	0x7
+ 221 0064 61000000 		.4byte	.LASF7
+ 222 0068 04       		.uleb128 0x4
+ 223 0069 04       		.byte	0x4
+ 224 006a 05       		.byte	0x5
+ 225 006b 696E7400 		.ascii	"int\000"
+ 226 006f 02       		.uleb128 0x2
+ 227 0070 04       		.byte	0x4
+ 228 0071 07       		.byte	0x7
+ 229 0072 2B000000 		.4byte	.LASF8
+ 230 0076 03       		.uleb128 0x3
+ 231 0077 C6010000 		.4byte	.LASF10
+ 232 007b 03       		.byte	0x3
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 7
+
+
+ 233 007c 2C       		.byte	0x2c
+ 234 007d 41000000 		.4byte	0x41
+ 235 0081 05       		.uleb128 0x5
+ 236 0082 49000000 		.4byte	.LASF11
+ 237 0086 04       		.byte	0x4
+ 238 0087 9201     		.2byte	0x192
+ 239 0089 2C000000 		.4byte	0x2c
+ 240 008d 05       		.uleb128 0x5
+ 241 008e 44000000 		.4byte	.LASF12
+ 242 0092 04       		.byte	0x4
+ 243 0093 9501     		.2byte	0x195
+ 244 0095 25000000 		.4byte	0x25
+ 245 0099 02       		.uleb128 0x2
+ 246 009a 04       		.byte	0x4
+ 247 009b 04       		.byte	0x4
+ 248 009c 68010000 		.4byte	.LASF13
+ 249 00a0 02       		.uleb128 0x2
+ 250 00a1 08       		.byte	0x8
+ 251 00a2 04       		.byte	0x4
+ 252 00a3 36010000 		.4byte	.LASF14
+ 253 00a7 02       		.uleb128 0x2
+ 254 00a8 01       		.byte	0x1
+ 255 00a9 08       		.byte	0x8
+ 256 00aa 90000000 		.4byte	.LASF15
+ 257 00ae 02       		.uleb128 0x2
+ 258 00af 04       		.byte	0x4
+ 259 00b0 07       		.byte	0x7
+ 260 00b1 CE010000 		.4byte	.LASF16
+ 261 00b5 06       		.uleb128 0x6
+ 262 00b6 3F000000 		.4byte	.LASF23
+ 263 00ba 01       		.byte	0x1
+ 264 00bb 37       		.byte	0x37
+ 265 00bc 68000000 		.4byte	0x68
+ 266 00c0 00000000 		.4byte	.LFB63
+ 267 00c4 98000000 		.4byte	.LFE63-.LFB63
+ 268 00c8 01       		.uleb128 0x1
+ 269 00c9 9C       		.byte	0x9c
+ 270 00ca DD000000 		.4byte	0xdd
+ 271 00ce 07       		.uleb128 0x7
+ 272 00cf 3D010000 		.4byte	.LASF24
+ 273 00d3 01       		.byte	0x1
+ 274 00d4 39       		.byte	0x39
+ 275 00d5 81000000 		.4byte	0x81
+ 276 00d9 02       		.uleb128 0x2
+ 277 00da 91       		.byte	0x91
+ 278 00db 77       		.sleb128 -9
+ 279 00dc 00       		.byte	0
+ 280 00dd 08       		.uleb128 0x8
+ 281 00de 45010000 		.4byte	.LASF17
+ 282 00e2 05       		.byte	0x5
+ 283 00e3 9606     		.2byte	0x696
+ 284 00e5 E9000000 		.4byte	0xe9
+ 285 00e9 09       		.uleb128 0x9
+ 286 00ea 76000000 		.4byte	0x76
+ 287 00ee 0A       		.uleb128 0xa
+ 288 00ef 81000000 		.4byte	0x81
+ 289 00f3 FE000000 		.4byte	0xfe
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 8
+
+
+ 290 00f7 0B       		.uleb128 0xb
+ 291 00f8 AE000000 		.4byte	0xae
+ 292 00fc 02       		.byte	0x2
+ 293 00fd 00       		.byte	0
+ 294 00fe 0C       		.uleb128 0xc
+ 295 00ff 78000000 		.4byte	.LASF18
+ 296 0103 01       		.byte	0x1
+ 297 0104 25       		.byte	0x25
+ 298 0105 EE000000 		.4byte	0xee
+ 299 0109 05       		.uleb128 0x5
+ 300 010a 03       		.byte	0x3
+ 301 010b 00000000 		.4byte	mouseData
+ 302 010f 0A       		.uleb128 0xa
+ 303 0110 81000000 		.4byte	0x81
+ 304 0114 1F010000 		.4byte	0x11f
+ 305 0118 0B       		.uleb128 0xb
+ 306 0119 AE000000 		.4byte	0xae
+ 307 011d 0F       		.byte	0xf
+ 308 011e 00       		.byte	0
+ 309 011f 0C       		.uleb128 0xc
+ 310 0120 21000000 		.4byte	.LASF19
+ 311 0124 01       		.byte	0x1
+ 312 0125 26       		.byte	0x26
+ 313 0126 0F010000 		.4byte	0x10f
+ 314 012a 05       		.uleb128 0x5
+ 315 012b 03       		.byte	0x3
+ 316 012c 00000000 		.4byte	bSNstring
+ 317 0130 00       		.byte	0
+ 318              		.section	.debug_abbrev,"",%progbits
+ 319              	.Ldebug_abbrev0:
+ 320 0000 01       		.uleb128 0x1
+ 321 0001 11       		.uleb128 0x11
+ 322 0002 01       		.byte	0x1
+ 323 0003 25       		.uleb128 0x25
+ 324 0004 0E       		.uleb128 0xe
+ 325 0005 13       		.uleb128 0x13
+ 326 0006 0B       		.uleb128 0xb
+ 327 0007 03       		.uleb128 0x3
+ 328 0008 0E       		.uleb128 0xe
+ 329 0009 1B       		.uleb128 0x1b
+ 330 000a 0E       		.uleb128 0xe
+ 331 000b 55       		.uleb128 0x55
+ 332 000c 17       		.uleb128 0x17
+ 333 000d 11       		.uleb128 0x11
+ 334 000e 01       		.uleb128 0x1
+ 335 000f 10       		.uleb128 0x10
+ 336 0010 17       		.uleb128 0x17
+ 337 0011 00       		.byte	0
+ 338 0012 00       		.byte	0
+ 339 0013 02       		.uleb128 0x2
+ 340 0014 24       		.uleb128 0x24
+ 341 0015 00       		.byte	0
+ 342 0016 0B       		.uleb128 0xb
+ 343 0017 0B       		.uleb128 0xb
+ 344 0018 3E       		.uleb128 0x3e
+ 345 0019 0B       		.uleb128 0xb
+ 346 001a 03       		.uleb128 0x3
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 9
+
+
+ 347 001b 0E       		.uleb128 0xe
+ 348 001c 00       		.byte	0
+ 349 001d 00       		.byte	0
+ 350 001e 03       		.uleb128 0x3
+ 351 001f 16       		.uleb128 0x16
+ 352 0020 00       		.byte	0
+ 353 0021 03       		.uleb128 0x3
+ 354 0022 0E       		.uleb128 0xe
+ 355 0023 3A       		.uleb128 0x3a
+ 356 0024 0B       		.uleb128 0xb
+ 357 0025 3B       		.uleb128 0x3b
+ 358 0026 0B       		.uleb128 0xb
+ 359 0027 49       		.uleb128 0x49
+ 360 0028 13       		.uleb128 0x13
+ 361 0029 00       		.byte	0
+ 362 002a 00       		.byte	0
+ 363 002b 04       		.uleb128 0x4
+ 364 002c 24       		.uleb128 0x24
+ 365 002d 00       		.byte	0
+ 366 002e 0B       		.uleb128 0xb
+ 367 002f 0B       		.uleb128 0xb
+ 368 0030 3E       		.uleb128 0x3e
+ 369 0031 0B       		.uleb128 0xb
+ 370 0032 03       		.uleb128 0x3
+ 371 0033 08       		.uleb128 0x8
+ 372 0034 00       		.byte	0
+ 373 0035 00       		.byte	0
+ 374 0036 05       		.uleb128 0x5
+ 375 0037 16       		.uleb128 0x16
+ 376 0038 00       		.byte	0
+ 377 0039 03       		.uleb128 0x3
+ 378 003a 0E       		.uleb128 0xe
+ 379 003b 3A       		.uleb128 0x3a
+ 380 003c 0B       		.uleb128 0xb
+ 381 003d 3B       		.uleb128 0x3b
+ 382 003e 05       		.uleb128 0x5
+ 383 003f 49       		.uleb128 0x49
+ 384 0040 13       		.uleb128 0x13
+ 385 0041 00       		.byte	0
+ 386 0042 00       		.byte	0
+ 387 0043 06       		.uleb128 0x6
+ 388 0044 2E       		.uleb128 0x2e
+ 389 0045 01       		.byte	0x1
+ 390 0046 3F       		.uleb128 0x3f
+ 391 0047 19       		.uleb128 0x19
+ 392 0048 03       		.uleb128 0x3
+ 393 0049 0E       		.uleb128 0xe
+ 394 004a 3A       		.uleb128 0x3a
+ 395 004b 0B       		.uleb128 0xb
+ 396 004c 3B       		.uleb128 0x3b
+ 397 004d 0B       		.uleb128 0xb
+ 398 004e 49       		.uleb128 0x49
+ 399 004f 13       		.uleb128 0x13
+ 400 0050 11       		.uleb128 0x11
+ 401 0051 01       		.uleb128 0x1
+ 402 0052 12       		.uleb128 0x12
+ 403 0053 06       		.uleb128 0x6
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 10
+
+
+ 404 0054 40       		.uleb128 0x40
+ 405 0055 18       		.uleb128 0x18
+ 406 0056 9642     		.uleb128 0x2116
+ 407 0058 19       		.uleb128 0x19
+ 408 0059 01       		.uleb128 0x1
+ 409 005a 13       		.uleb128 0x13
+ 410 005b 00       		.byte	0
+ 411 005c 00       		.byte	0
+ 412 005d 07       		.uleb128 0x7
+ 413 005e 34       		.uleb128 0x34
+ 414 005f 00       		.byte	0
+ 415 0060 03       		.uleb128 0x3
+ 416 0061 0E       		.uleb128 0xe
+ 417 0062 3A       		.uleb128 0x3a
+ 418 0063 0B       		.uleb128 0xb
+ 419 0064 3B       		.uleb128 0x3b
+ 420 0065 0B       		.uleb128 0xb
+ 421 0066 49       		.uleb128 0x49
+ 422 0067 13       		.uleb128 0x13
+ 423 0068 02       		.uleb128 0x2
+ 424 0069 18       		.uleb128 0x18
+ 425 006a 00       		.byte	0
+ 426 006b 00       		.byte	0
+ 427 006c 08       		.uleb128 0x8
+ 428 006d 34       		.uleb128 0x34
+ 429 006e 00       		.byte	0
+ 430 006f 03       		.uleb128 0x3
+ 431 0070 0E       		.uleb128 0xe
+ 432 0071 3A       		.uleb128 0x3a
+ 433 0072 0B       		.uleb128 0xb
+ 434 0073 3B       		.uleb128 0x3b
+ 435 0074 05       		.uleb128 0x5
+ 436 0075 49       		.uleb128 0x49
+ 437 0076 13       		.uleb128 0x13
+ 438 0077 3F       		.uleb128 0x3f
+ 439 0078 19       		.uleb128 0x19
+ 440 0079 3C       		.uleb128 0x3c
+ 441 007a 19       		.uleb128 0x19
+ 442 007b 00       		.byte	0
+ 443 007c 00       		.byte	0
+ 444 007d 09       		.uleb128 0x9
+ 445 007e 35       		.uleb128 0x35
+ 446 007f 00       		.byte	0
+ 447 0080 49       		.uleb128 0x49
+ 448 0081 13       		.uleb128 0x13
+ 449 0082 00       		.byte	0
+ 450 0083 00       		.byte	0
+ 451 0084 0A       		.uleb128 0xa
+ 452 0085 01       		.uleb128 0x1
+ 453 0086 01       		.byte	0x1
+ 454 0087 49       		.uleb128 0x49
+ 455 0088 13       		.uleb128 0x13
+ 456 0089 01       		.uleb128 0x1
+ 457 008a 13       		.uleb128 0x13
+ 458 008b 00       		.byte	0
+ 459 008c 00       		.byte	0
+ 460 008d 0B       		.uleb128 0xb
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 11
+
+
+ 461 008e 21       		.uleb128 0x21
+ 462 008f 00       		.byte	0
+ 463 0090 49       		.uleb128 0x49
+ 464 0091 13       		.uleb128 0x13
+ 465 0092 2F       		.uleb128 0x2f
+ 466 0093 0B       		.uleb128 0xb
+ 467 0094 00       		.byte	0
+ 468 0095 00       		.byte	0
+ 469 0096 0C       		.uleb128 0xc
+ 470 0097 34       		.uleb128 0x34
+ 471 0098 00       		.byte	0
+ 472 0099 03       		.uleb128 0x3
+ 473 009a 0E       		.uleb128 0xe
+ 474 009b 3A       		.uleb128 0x3a
+ 475 009c 0B       		.uleb128 0xb
+ 476 009d 3B       		.uleb128 0x3b
+ 477 009e 0B       		.uleb128 0xb
+ 478 009f 49       		.uleb128 0x49
+ 479 00a0 13       		.uleb128 0x13
+ 480 00a1 3F       		.uleb128 0x3f
+ 481 00a2 19       		.uleb128 0x19
+ 482 00a3 02       		.uleb128 0x2
+ 483 00a4 18       		.uleb128 0x18
+ 484 00a5 00       		.byte	0
+ 485 00a6 00       		.byte	0
+ 486 00a7 00       		.byte	0
+ 487              		.section	.debug_aranges,"",%progbits
+ 488 0000 1C000000 		.4byte	0x1c
+ 489 0004 0200     		.2byte	0x2
+ 490 0006 00000000 		.4byte	.Ldebug_info0
+ 491 000a 04       		.byte	0x4
+ 492 000b 00       		.byte	0
+ 493 000c 0000     		.2byte	0
+ 494 000e 0000     		.2byte	0
+ 495 0010 00000000 		.4byte	.LFB63
+ 496 0014 98000000 		.4byte	.LFE63-.LFB63
+ 497 0018 00000000 		.4byte	0
+ 498 001c 00000000 		.4byte	0
+ 499              		.section	.debug_ranges,"",%progbits
+ 500              	.Ldebug_ranges0:
+ 501 0000 00000000 		.4byte	.LFB63
+ 502 0004 98000000 		.4byte	.LFE63
+ 503 0008 00000000 		.4byte	0
+ 504 000c 00000000 		.4byte	0
+ 505              		.section	.debug_line,"",%progbits
+ 506              	.Ldebug_line0:
+ 507 0000 7A010000 		.section	.debug_str,"MS",%progbits,1
+ 507      02004701 
+ 507      00000201 
+ 507      FB0E0D00 
+ 507      01010101 
+ 508              	.LASF6:
+ 509 0000 6C6F6E67 		.ascii	"long long int\000"
+ 509      206C6F6E 
+ 509      6720696E 
+ 509      7400
+ 510              	.LASF3:
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 12
+
+
+ 511 000e 73686F72 		.ascii	"short unsigned int\000"
+ 511      7420756E 
+ 511      7369676E 
+ 511      65642069 
+ 511      6E7400
+ 512              	.LASF19:
+ 513 0021 62534E73 		.ascii	"bSNstring\000"
+ 513      7472696E 
+ 513      6700
+ 514              	.LASF8:
+ 515 002b 756E7369 		.ascii	"unsigned int\000"
+ 515      676E6564 
+ 515      20696E74 
+ 515      00
+ 516              	.LASF21:
+ 517 0038 6D61696E 		.ascii	"main.c\000"
+ 517      2E6300
+ 518              	.LASF23:
+ 519 003f 6D61696E 		.ascii	"main\000"
+ 519      00
+ 520              	.LASF12:
+ 521 0044 696E7438 		.ascii	"int8\000"
+ 521      00
+ 522              	.LASF11:
+ 523 0049 75696E74 		.ascii	"uint8\000"
+ 523      3800
+ 524              	.LASF5:
+ 525 004f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 525      20756E73 
+ 525      69676E65 
+ 525      6420696E 
+ 525      7400
+ 526              	.LASF7:
+ 527 0061 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 527      206C6F6E 
+ 527      6720756E 
+ 527      7369676E 
+ 527      65642069 
+ 528              	.LASF18:
+ 529 0078 6D6F7573 		.ascii	"mouseData\000"
+ 529      65446174 
+ 529      6100
+ 530              	.LASF1:
+ 531 0082 756E7369 		.ascii	"unsigned char\000"
+ 531      676E6564 
+ 531      20636861 
+ 531      7200
+ 532              	.LASF15:
+ 533 0090 63686172 		.ascii	"char\000"
+ 533      00
+ 534              	.LASF4:
+ 535 0095 6C6F6E67 		.ascii	"long int\000"
+ 535      20696E74 
+ 535      00
+ 536              	.LASF20:
+ 537 009e 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 537      4320342E 
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 13
+
+
+ 537      392E3320 
+ 537      32303135 
+ 537      30333033 
+ 538 00d1 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m3 -mthumb -g -O"
+ 538      20726576 
+ 538      6973696F 
+ 538      6E203232 
+ 538      31323230 
+ 539 0104 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 539      66756E63 
+ 539      74696F6E 
+ 539      2D736563 
+ 539      74696F6E 
+ 540              	.LASF2:
+ 541 012c 73686F72 		.ascii	"short int\000"
+ 541      7420696E 
+ 541      7400
+ 542              	.LASF14:
+ 543 0136 646F7562 		.ascii	"double\000"
+ 543      6C6500
+ 544              	.LASF24:
+ 545 013d 636F756E 		.ascii	"counter\000"
+ 545      74657200 
+ 546              	.LASF17:
+ 547 0145 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 547      52784275 
+ 547      66666572 
+ 547      00
+ 548              	.LASF0:
+ 549 0152 7369676E 		.ascii	"signed char\000"
+ 549      65642063 
+ 549      68617200 
+ 550              	.LASF9:
+ 551 015e 5F5F696E 		.ascii	"__int32_t\000"
+ 551      7433325F 
+ 551      7400
+ 552              	.LASF13:
+ 553 0168 666C6F61 		.ascii	"float\000"
+ 553      7400
+ 554              	.LASF22:
+ 555 016e 5A3A5C55 		.ascii	"Z:\\Users\\iLyngklip\\Dropbox\\AAU\\4. Semester\\Di"
+ 555      73657273 
+ 555      5C694C79 
+ 555      6E676B6C 
+ 555      69705C44 
+ 556 019b 67697461 		.ascii	"gital-Design\\USBFS_HID02\\USBFS_HID02.cydsn\000"
+ 556      6C2D4465 
+ 556      7369676E 
+ 556      5C555342 
+ 556      46535F48 
+ 557              	.LASF10:
+ 558 01c6 696E7433 		.ascii	"int32_t\000"
+ 558      325F7400 
+ 559              	.LASF16:
+ 560 01ce 73697A65 		.ascii	"sizetype\000"
+ 560      74797065 
+ 560      00
+ARM GAS  C:\Users\ILYNGK~1\AppData\Local\Temp\ccT22LWP.s 			page 14
+
+
+ 561              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
