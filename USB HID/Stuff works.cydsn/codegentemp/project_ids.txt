@@ -1,0 +1,6 @@
+Z:\Users\iLyngklip\Dropbox\AAU\4. Semester\Digital-Design\USB HID\Stuff works.cydsn\Stuff works.cyprj|abc715fa-d923-4003-90a1-8e63ca8e6084
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|82db9195-94c7-4a10-b502-9e89d4257b0e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|4dcbd698-5cdc-46bf-8f7d-a1491cad7612
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|5b3e2df9-030d-43d8-866e-960fcfa407fc
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5fc338e6-70e7-422b-b7c0-a84b4b9e56e7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1b558666-3fe7-49f2-84d1-be4eac36371c

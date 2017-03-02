@@ -83,19 +83,20 @@ int main()
         USBFS_LoadInEP(MOUSE_ENDPOINT, mouseData, MOUSE_DATA_LEN);
 
         counter++;
-        if (counter == 128u)
-        {
+        
+        // if (counter == 128u)
+        // {
             /* Start moving mouse to the right. */
-            mouseData[CURSOR_STEP_POS] = CURSOR_STEP;
-        }
+        //    mouseData[CURSOR_STEP_POS] = CURSOR_STEP;
+        // }
         /* When our counter hits 255. */					
-        else if (counter == 255u)
-        {
+        // else if (counter == 255u)
+        // {
             /* Start moving mouse to left. */
-            mouseData[CURSOR_STEP_POS] = (uint8) -(int8) CURSOR_STEP;
-        }
-        else
-        {
+        //    mouseData[CURSOR_STEP_POS] = (uint8) -(int8) CURSOR_STEP;
+        // }
+        // else
+        // {
             if(KNAP_Read() == 0u)
             {
                 PORE_Write(1u);
@@ -106,7 +107,11 @@ int main()
                 mouseData[0] = 0x00;
             }
             /* Do nothing. */					
-        }
+            // char *temp;
+            // temp = (char *) malloc(2);
+            int temp = xAkse_Read();
+            free(temp);
+       // }
     }
 }
 

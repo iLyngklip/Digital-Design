@@ -203,6 +203,9 @@
       <Data key="5f1f1109-06ab-4021-913c-e0cb03c7850d/8b77a6c4-10a0-4390-971c-672353e2a49c" value="USBFS_Dm" />
       <Data key="5f1f1109-06ab-4021-913c-e0cb03c7850d/618a72fc-5ddd-4df5-958f-a3d55102db42" value="USBFS_Dp" />
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="KNAP" />
+      <Data key="77715107-f8d5-47e5-a629-0fb83101ac6b" value="yAkse" />
+      <Data key="ac061e8a-9073-4932-a393-9e1b19fe24d8" value="xAkse" />
+      <Data key="b9b91c35-38b5-4a88-8eec-e328acd9ef17/16a808f6-2e13-45b9-bce0-b001c8655113" value="xAksen_Bypass" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="PORE" />
     </Group>
   </Group>
@@ -742,6 +745,16 @@
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
       <Group key="0">
         <Data key="Port Format" value="2,2" />
+      </Group>
+    </Group>
+    <Group key="77715107-f8d5-47e5-a629-0fb83101ac6b">
+      <Group key="0">
+        <Data key="Port Format" value="1,6" />
+      </Group>
+    </Group>
+    <Group key="ac061e8a-9073-4932-a393-9e1b19fe24d8">
+      <Group key="0">
+        <Data key="Port Format" value="1,7" />
       </Group>
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">

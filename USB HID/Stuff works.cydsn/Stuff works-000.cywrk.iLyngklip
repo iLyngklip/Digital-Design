@@ -18,7 +18,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Stuff works-000">
 <ExpandedNodeIds>
 <v>Stuff works-000</v>
 <v>Stuff works-000\Stuff works</v>
@@ -108,6 +108,44 @@
 <v>Stuff works-000\Stuff works\Generated_Source\PSoC5\USBFS_Dp\USBFS_Dp.c</v>
 <v>Stuff works-000\Stuff works\Generated_Source\PSoC5\USBFS_Dp\USBFS_Dp.h</v>
 <v>Stuff works-000\Stuff works\Generated_Source\PSoC5\USBFS_Dp\USBFS_Dp_aliases.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAkse</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAkse\xAkse.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAkse\xAkse.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAkse\xAkse_aliases.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen\xAksen.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen\xAksen.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen\xAksen_INT.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen\xAksen_PM.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_Bypass</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_Bypass\xAksen_Bypass.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_Bypass\xAksen_Bypass.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_Bypass\xAksen_Bypass_aliases.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_IRQ</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_IRQ\xAksen_IRQ.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_IRQ\xAksen_IRQ.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_theACLK</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_theACLK\xAksen_theACLK.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\xAksen_theACLK\xAksen_theACLK.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAkse</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAkse\yAkse.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAkse\yAkse.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAkse\yAkse_aliases.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen\yAksen.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen\yAksen.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen\yAksen_INT.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen\yAksen_PM.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_Bypass</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_Bypass\yAksen_Bypass.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_Bypass\yAksen_Bypass.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_Bypass\yAksen_Bypass_aliases.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_IRQ</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_IRQ\yAksen_IRQ.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_IRQ\yAksen_IRQ.h</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_theACLK</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_theACLK\yAksen_theACLK.c</v>
+<v>Stuff works-000\Stuff works\Generated_Source\PSoC5\yAksen_theACLK\yAksen_theACLK.h</v>
 <v>Stuff works-000\Stuff works\Generated_Source\PSoC5\cycodeshareexport.ld</v>
 <v>Stuff works-000\Stuff works\Generated_Source\PSoC5\cycodeshareimport.ld</v>
 <v>Stuff works-000\Stuff works\Generated_Source\PSoC5\cycodeshareimport.scat</v>
@@ -237,6 +275,20 @@
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_pm.lst</v>
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_std.lst</v>
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_vnd.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAkse.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAksen.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAksen_Bypass.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAksen_INT.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAksen_IRQ.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAksen_PM.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAksen_theACLK.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\yAkse.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\yAksen.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\yAksen_Bypass.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\yAksen_INT.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\yAksen_IRQ.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\yAksen_PM.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\yAksen_theACLK.lst</v>
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Stuff works.elf</v>
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Stuff works.hex</v>
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Stuff works.map</v>
@@ -281,8 +333,8 @@
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_pm.lst</v>
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_std.lst</v>
 <v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\USBFS_vnd.lst</v>
-<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Stuff works.elf</v>
-<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Stuff works.hex</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAkse.lst</v>
+<v>Stuff works-000\Stuff works\CortexM3\ARM_GCC_493\Debug\Listing Files\xAksen.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -298,8 +350,11 @@
 <v>Stuff works-000\Stuff works\CY8C58LP Family Datasheet</v>
 <v>Stuff works-000\Stuff works\System Reference Guides</v>
 <v>Stuff works-000\Stuff works\System Reference Guides\cy_boot_v5_50</v>
+<v>Stuff works-000\Stuff works\ADC_SAR_v3_0</v>
+<v>Stuff works-000\Stuff works\ADC_SAR_v3_0\ADC_SAR_v3_0.pdf</v>
 <v>Stuff works-000\Stuff works\cy_pins_v2_20</v>
 <v>Stuff works-000\Stuff works\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Stuff works-000\Stuff works\Filter_v2_30.pdf</v>
 <v>Stuff works-000\Stuff works\USBFS_v3_10.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -309,8 +364,11 @@
 <v>Stuff works-000\Stuff works\CY8C58LP Family Datasheet</v>
 <v>Stuff works-000\Stuff works\System Reference Guides</v>
 <v>Stuff works-000\Stuff works\System Reference Guides\cy_boot_v5_50</v>
+<v>Stuff works-000\Stuff works\ADC_SAR_v3_0</v>
+<v>Stuff works-000\Stuff works\ADC_SAR_v3_0\ADC_SAR_v3_0.pdf</v>
 <v>Stuff works-000\Stuff works\cy_pins_v2_20</v>
 <v>Stuff works-000\Stuff works\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Stuff works-000\Stuff works\Filter_v2_30.pdf</v>
 <v>Stuff works-000\Stuff works\USBFS_v3_10.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
@@ -320,14 +378,20 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\main.c" />
+<name v=".\Stuff works.cydwr" />
+<name v=".\Generated_Source\PSoC5\USBFS_episr.c" />
+<name v=".\Generated_Source\PSoC5\USBFS.c" />
+</OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1177, 490" SelectedTabbedMdiWindow="b43672dd-40e4-46af-ae96-87fe1cb2f899"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="b43672dd-40e4-46af-ae96-87fe1cb2f899" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="804, 494" SelectedTabbedMdiWindow="74f1153d-5950-4724-90be-3a3222a25c7a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="b43672dd-40e4-46af-ae96-87fe1cb2f899" /><DocumentWindow Key="b193a968-b6c8-4fa1-8bb0-213444bfebb6" Guid="74f1153d-5950-4724-90be-3a3222a25c7a" /><DocumentWindow Key="32804803-2b34-4277-8c83-c24bcb933afe" Guid="e2f021d9-055a-42bd-a64b-2a15772de0dc" /><DocumentWindow Key="1c3fe7b0-436d-4b48-9e2f-2f9edf6d1dfb" Guid="20817627-8ef6-498d-9f17-c30c7e852e7d" /><DocumentWindow Key="42cffcaa-c9f3-4f0b-bb70-dfd2b04edfbe" Guid="5a493107-ef01-4adc-977a-bc7f13a31fe1" /><DocumentWindow Key="c861acef-3ae8-4800-bc32-fbc997ea7121" Guid="110e4aad-04e6-42d0-a4b5-f36a95c80e01" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
